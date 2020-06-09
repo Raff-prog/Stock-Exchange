@@ -1,0 +1,141 @@
+.navbar{
+    background-color: #42A5F5 !important;
+}
+span{
+    padding-left: 1000px;
+}
+.nav-item{
+    margin-left: 30px;
+}
+.card{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 60px;
+    
+}
+.card-header{
+    background-color: #42A5F5;
+}
+.list-group-item{
+    background-color: #BBDEFB;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: #424242;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.main{
+    color: green;
+}
+.popular{
+    color: #E0E0E0;
+}
+.copyright{
+    text-align: right;
+    padding-right: 20px;
+}
+.gallery{
+    text-align: center;
+    color: #0D47A1;
+    font-weight: bold;
+}
+.gallery-img{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 310px;
+    height: 160px;
+}
+.card1, .card2, .card3{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 300px;
+    background-color: #BBDEFB;
+    box-shadow: 2px 4px 5px grey;
+    padding: 10px;
+}
+.mainCard{
+    margin-left: 100px;
+    padding: 20px 20px 20px 20px;
+    padding-left: 60px;
+    display: inline-block;
+}
+.fa-question-circle, .fa-chain-broken, .fa-comments-o{
+    font-size: 30px !important;
+}
+.service{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+.para{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+    text-align: center;
+    color: #0D47A1;
+    font-weight: bold;
+}
+.card-heading{
+    font-weight: bold;
+    display: inline;
+    padding-left: 20px;
+}
+.fa-bar-chart, .fa-line-chart, .fa-clock-o{
+    font-size: 24px !important;
+}
+.head{
+    display: inline;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: large;
+}
+.btn-primary{
+    background-color:#42A5F5;
+    margin-right: 5px;
+}
+
+.Login{
+    background-color:#42A5F5;
+    width: 40%;
+    height: 530px;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+.logHeader{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.separation{
+    color: white;
+}
+.loginForm{
+    text-align: center;
+    margin: 10px;
+}
+.email{
+    padding-left: 31px;
+}
+.btn-primary{
+    background-color:#0D47A1 !important;
+}
+.contact{
+    padding-left: 3px;
+}
+@media screen and (max-width: 600px) {
+    .Login{
+      width: 100%;
+      margin-left: 5px;
+    }
+    .navbar{
+        width: 100%;
+    }
+}
